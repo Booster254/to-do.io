@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>To-Do List</title>
+  <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="container">
+    <h1>To-Do List</h1>
+    <div class="form-group">
+      <input type="text" id="taskInput" placeholder="Enter a task">
+      <button onclick="addTask()">Add</button>
+    </div>
+    <div class="task-boxes">
+      <div class="task-box">
+        <h2>All Tasks</h2>
+        <ul id="allTasks"></ul>
+      </div>
+      <div class="task-box">
+        <h2>Completed Tasks</h2>
+        <ul id="completedTasks"></ul>
+      </div>
+      <div class="task-box">
+        <h2>Pending Tasks</h2>
+        <ul id="pendingTasks"></ul>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
